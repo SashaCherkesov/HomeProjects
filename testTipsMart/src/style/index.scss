@@ -1,0 +1,190 @@
+$blueBckgrnd: #1F7AFF;
+
+body{
+
+    .ref_btn{
+        position: absolute;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: 0;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 110px;
+        height: 36px;
+        border-radius: 10px;
+        margin: auto;
+        background-color: $blueBckgrnd;
+        
+        
+        .ref_btn_link{
+        color: white;
+        outline: none;
+        text-decoration: none;
+        font-size: 14px;
+        font-style: normal;
+        cursor: default;
+        }
+    }
+
+
+
+    .pop_up{
+        display: flex;
+        width: 1024px;
+        height: 522px;
+        position: absolute;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: 0;
+        margin: auto;
+
+        
+    .pop_up_left_side{
+        display: flex;
+        flex-direction: column;
+        width: 50%;
+        height: 100%;
+        background: #ffffff;
+        border-radius: 4px 0px 0px 4px;
+
+        .close_btn{
+            position: absolute;
+            display: flex;
+            align-items: center;
+            width: 20px;
+            height: 20px;
+            left: 3.5%;
+            top: 6.5%;
+            cursor: default;
+    
+            .first_line{
+                position: absolute;
+                background: #99C6FF;
+                width: 20px;
+                height: 2px;
+                transform: rotate(45deg);
+            }
+            .second_line{
+                position: absolute;
+                background: #99C6FF;
+                width: 20px;
+                height: 2px;
+                transform: rotate(-45deg);
+            }
+    
+            
+        }
+
+        .pop_up_content{
+            display: flex;
+            flex-direction: column;
+            margin: 24% 0 0 6.5%;
+            width: 340px;
+
+            .pop_up_title{
+                color: $blueBckgrnd;
+                font-size: 24px;
+                font-style: normal;
+            }
+            .pop_up_description{
+                font-size: 16px;
+                font-style: normal;
+                margin: 10% 0 0 0;
+            }
+
+            
+
+        }
+        .btn_placeholder{
+            display: flex;
+            width: 250px;
+            position: absolute;
+            align-items: center;
+            justify-content: space-around;
+            top: 85%;
+            left: 3.5%;
+
+            .btn_back{
+                display: none;
+                color: $blueBckgrnd;
+                margin-right: 16px;
+                cursor: default;
+            }
+            .btn_next{
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                width: 63px;
+                height: 36px;
+                background-color: $blueBckgrnd;
+                color: #ffffff;
+                border-radius: 5px;
+                margin-right: 16px;
+                cursor: default;
+            }
+
+            .slide_dots{
+                display: flex;
+                align-items: center;
+                justify-content: space-around;
+                width: 50px;
+
+                .slide_dot{
+                    width: 7px;
+                    height: 7px;
+                    border-radius: 50%;
+                    background: #99C6FF;
+
+                    &.active{
+                        background: #1F7AFF;
+                    }
+                }
+
+            }
+        }
+
+    }
+    .pop_up_right_side{
+        display: flex;
+        width: 50%;
+        height: 100%;
+        background: $blueBckgrnd;
+        border-radius: 0px 4px 4px 0px;
+
+        .img_placeholder{
+            width: 500px;
+            height: 500px;
+            margin: auto;
+           
+        }
+        .gif{
+             width: 500px;
+             height: 500px;
+        }
+    }
+        
+    }
+    #pop_up_bckgrnd{
+        display: none;
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: 0;
+        z-index: 10;
+        background-color: #B6B6B6;
+    }
+    #pop_up_bckgrnd:target{
+        display: flex;
+    }
+
+    
+
+
+    
+}

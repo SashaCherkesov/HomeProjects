@@ -1,0 +1,40 @@
+$green: #00FF00;
+$red: #FF0000;
+$blue: #004DFF;
+$yellow: #FFDF00;
+
+body {
+    background-color: rgba($color: #272727, $alpha: 1.0);
+
+
+    .garland_box {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        margin: auto;
+        width: 600px;
+        height: 400px;
+        border-radius: 5%;
+        background-color: white;
+
+
+        .lights {
+             width: 10px;
+             height: 10px;
+             margin: auto;
+
+             &.red{
+                 background-color: $red;
+             }
+             &.green{
+                 background-color: $green;
+             }
+             &.blue{
+                background-color: $blue;
+            }
+            &.yellow{
+                background-color: $yellow;
+            }
+        }
+    }
+}

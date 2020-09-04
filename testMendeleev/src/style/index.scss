@@ -1,0 +1,176 @@
+$green: #6ac82a;
+$red: #ff5254;
+$orange: #ff9a24;
+$light_blue: #00c1dc;
+$dark_blue: #5691cd;
+$smoke_blue: #91b0cd;
+$dark_green: #00a32c;
+$yellow: #ffcd00;
+$pink: #ff9d9a;
+
+
+
+body {
+    background-color: rgba($color: #252525, $alpha: 1.0);
+
+    .b_main{
+         width: 1500px;
+         margin: 0 auto;
+
+        .b_main_first_sector{  
+            margin: 12px;
+            display: grid;
+            grid-template-columns: repeat(19, 1fr);
+            grid-template-rows: repeat(7, 80px); 
+                
+        }
+        .element_block{
+                width: 65px;
+                height: 65px;
+                border-radius: 5px;
+                margin: auto;
+
+                a{
+                    text-decoration: none;
+                    display: flex;
+                    flex-direction: column;
+                }
+
+                .element_top{
+                    height: 30%;
+                    margin: 4px 0px 0px 8px;
+                    font-size: 12px;
+                    color: #fff;
+                }
+                .element_bott{
+                    height: 70%;
+                    margin: 4px 0px 0px 8px;
+                    font-size: 30px;
+                    color: #fff;
+
+                }
+
+                &.green{
+                    background-color: $green;
+                }
+                &.none{
+                    background-color: transparent;;
+                }
+                &.pink{
+                    background-color: $pink;
+                }
+                &.red{
+                    background-color: $red;
+                }
+                &.orange{
+                    background-color: $orange;
+                }
+                &.light_blue{
+                    background-color: $light_blue;
+                }
+                &.dark_blue{
+                    background-color: $dark_blue;
+                }
+                &.smoke_blue{
+                    background-color: $smoke_blue;
+                }
+                &.dark_green{
+                    background-color: $dark_green;
+                }
+                &.yellow{
+                    background-color: $yellow;
+                }
+                &.element_block:hover{
+                width: 70px;
+                height: 70px;
+                border-radius: 5px;
+
+                }
+            }
+
+        .b_main_second_sector_box{
+            display: flex;
+            flex-direction: column;
+            width: 1195px;
+            margin: 0 auto;
+
+            .b_main_second_sector{  
+                margin: 12px;
+                display: grid;
+                width: 100%;
+                grid-template-columns: repeat(15, 1fr);
+                grid-template-rows: repeat(2, 80px);
+            } 
+        }
+
+        #pop_up{
+            width: 1000px;
+            height: 410px;
+            background-color: rgba($color: #444444, $alpha: 1.0);
+            border-radius: 10px;
+            position: absolute;
+            top: 0;
+            right: 0;
+            bottom: 0;
+            left: 0;
+            margin: auto;
+            
+            .pop_up_body{
+                display: flex;
+                margin: 12px;
+                flex-wrap: wrap;
+                
+            }
+            .img_area{
+                width: 40%;
+                margin: 12px;
+            }
+            
+            .element_img{
+                height: 360px;
+            }
+
+            .element_title{
+                display: flex;
+                justify-content: center;
+                color: #fff;
+            }
+            .element_h1{
+                display: flex;
+            }
+
+            .element_text_area{
+                display: flex;
+                flex-direction: column;
+                width: 50%;
+            }
+
+            .element_description{
+                display: flex;
+                flex-wrap: wrap;
+                font-size: 24px;
+                color: #fff;
+            }
+
+
+            
+        }
+        #to_main{
+            display: none;
+            width: 100%;
+            height: 100%;
+            position: absolute;
+            top: 0;
+            right: 0;
+            bottom: 0;
+            left: 0;
+            z-index: 10;
+            background-color: rgba(0, 0, 0, 0.575);
+
+            
+        }
+        #to_main:target{
+            display: flex;
+        }
+    }
+}

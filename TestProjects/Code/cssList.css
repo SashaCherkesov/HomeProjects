@@ -1,0 +1,458 @@
+header.header{
+    display: flex;
+    justify-items: space-between;
+    align-items: center;
+    border-bottom: 1px solid rgb(185, 185, 185);
+}
+
+a.headerNav{
+    color: rgb(0, 28, 153);
+}
+a.headerNav:hover{
+    color: rgb(0, 47, 255);
+}
+
+div.headerLeft{
+display: flex;
+justify-content: space-between;
+align-items: center;
+width: 65%;
+
+}
+img.headerLogo{
+height: 50px;
+padding: 4px;
+}
+div.headerSearchBar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-right: 16px;
+}
+img.searchImg{
+height: 20px;
+padding-right: 4px;
+}
+input.searchInput{
+
+}
+
+
+div.headerRight{
+display: flex;
+justify-content: space-between;
+align-items: center;
+width: 35%;
+}
+div.headerMenu{
+    display: flex;
+    justify-content:space-between ;
+    align-items: center;
+    width: 200px;
+}
+a.headerNav{
+}
+div.userProfile{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+img.userPic{
+height: 50px;
+}
+div.userInfo{
+padding-left: 4px;
+}
+div.userName{
+
+}
+div.userSurname{
+
+}
+div.closeButton{
+padding-left: 24px;
+}
+img.closeButton{
+height: 30px;  
+padding-right: 4px;  
+}
+
+
+div.mainBody{
+    display: flex;
+    justify-content: space-around;   
+    width: 100%;
+}
+
+
+div.leftSection{
+height: 850px;
+display: flex;
+flex-direction: column;
+width: 65%;
+margin: 5px;
+border: 1px solid rgb(185, 185, 185)
+}
+div.leftSectionBoxOne{
+height: 170px;
+display: flex;
+align-items: center;
+justify-content: space-between;
+}
+div.leftSectionBoxTwo{
+    height: 170px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around; 
+}
+div.leftSectionBoxThree{
+    height: 170px;
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    justify-content: space-between;
+
+}
+div.leftSectionBoxFour{
+    height: 170px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+div.blueTextBox{
+    height: 130px;
+    width: 30%;
+    background: rgb(99, 99, 253);
+    margin: 8px;
+    border:1px solid rgb(95, 95, 95);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+div.textInBox{
+    color: rgb(250, 100, 237);
+    font-size: 24px;
+    text-align: center;
+}
+
+
+div.rightSection{
+height: 850px;
+display: flex;
+flex-direction: column;
+width: 35%;
+margin: 5px;
+}
+div.rightSectionBoxOne{
+    margin: 4px;
+    padding-bottom: 4px;
+    height: 180px;
+}
+div.buttonBoxRight{
+    height: 100%;
+    border: 1px solid rgb(185, 185, 185);
+    border-radius: 20px;
+}
+div.buttonInBox{
+    height: 60px;
+    border-bottom:1px solid rgb(185, 185, 185);
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+div.buttonInBoxOne{
+    height: 60px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+
+
+div.rightSectionBoxTwo{
+    margin: 4px;
+    padding-bottom: 4px;
+    height: 670px;
+    border:1px solid rgb(185, 185, 185);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+img.shrekImg{
+    height: 150px;
+    padding: 16px;
+}
+h1.h1{
+
+}
+div.rightTextBox{
+    height: 150px;
+    margin: 12px;
+}
+div.circle{
+    border: 1px solid rgb(95, 95, 95);
+    height: 200px;
+    width: 200px;
+    border-radius: 200px 200px;
+    background: rgb(226, 84, 84);
+    display: flex;
+    flex-direction: column;
+}
+div.circleTop{
+    height: 67px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+div.circleMid{
+    height: 67px;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 12px;
+    margin-right: 12px;
+    align-items: center;
+}
+div.circleBott{
+    height: 67px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+div.squareOne{
+    height: 35px;
+    width: 35px;
+    border:1px solid rgb(95, 95, 95);
+    background: orange;
+}
+div.squareTwo{
+    height: 35px;
+    width: 35px;
+    border:1px solid rgb(95, 95, 95);
+    background: green;
+}
+div.squareThree{
+    height: 35px;
+    width: 35px;
+    border:1px solid rgb(95, 95, 95);
+    background: black;
+}
+div.squareFour{
+    height: 35px;
+    width: 35px;
+    border:1px solid rgb(95, 95, 95);
+    background: blue;
+}
+
+
+
+div.mainBodyShop{
+    display: flex;
+    flex-direction: column;
+    width: 1000px;
+    height: 100%;
+    margin: 0 auto;
+}
+div.shopSection{
+    display: flex;
+}
+
+h1.shopH1{
+    display: flex;
+    margin-left: 8px;
+
+}
+div.shopRightSection{
+    display: flex;
+    flex-direction: column;
+}
+div.rightBar{
+   display: flex;
+   flex-direction: column;
+}
+div.rightBarButtonsTop{
+    display: flex;
+    flex-direction: row;
+    
+}
+div.rightBarButtonsBott{
+    display: flex;
+    flex-direction: row;
+    margin-top: 6px;
+
+    
+}
+div.rightBarButton{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 70px;
+    height: 25px;
+    border:1px solid rgb(95, 95, 95);
+    border-radius: 3px;
+}
+div.rightBarButton:hover{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 70px;
+    height: 25px;
+    border:1px solid rgb(95, 95, 95);
+    border-radius: 3px;
+    background: rgb(226, 226, 226);
+}
+div.rightBarButton.active{
+    display: flex;
+    width: 70px;
+    height: 25px;
+    border:1px solid rgb(95, 95, 95);
+    background: rgb(0, 89, 255);
+    color: white;
+    justify-content: center;
+    align-items: center;
+}
+div.rightBarBott{
+    display: flex;
+    flex-direction: column;
+    border:1px solid rgb(95, 95, 95) ;
+    margin-top: 6px;
+    border-radius: 3px;
+
+}
+div.rightFillter{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 8px;
+    margin-left: 12px;
+}
+div.rightFillter:hover{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 8px;
+    margin-left: 12px;
+    background: rgb(226, 226, 226);
+}
+
+div.shopLeftSection{
+display: flex;
+flex-direction: column;
+}
+div.shopList{
+    display: flex;
+flex-direction: column;
+}
+div.topTapBar{
+    display: flex;
+    justify-content: space-between;
+}
+div.navTapBar{
+    display: flex;
+    margin-left: 12px;
+}
+div.navButtonBar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 1px solid rgb(199, 199, 199) ;
+    height: 30px;
+    width: 100px;
+    color: rgb(100, 100, 100);
+}
+div.navButtonBar.active{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid rgb(199, 199, 199);
+    border-bottom: unset;
+    height: 30px;
+    width: 100px;
+    border-radius: 3px 3px 0 0;
+    color: black;
+}
+
+div.topNavButton{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+div.fillterButtonLeft{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 30px;
+    width: 100px;
+    border: 1px solid rgb(199, 199, 199);
+    border-radius: 3px;
+}
+div.mapButton{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 30px;
+    width: 100px;
+    border: 1px solid rgb(199, 199, 199);
+    border-radius: 3px;
+    background: rgb(0, 89, 255);
+    color: white;
+}
+
+
+div.shopsContent{
+width: 100%;
+display: flex;
+flex-direction: column;
+}
+
+div.shopListLine{
+display: flex;
+align-items: center;
+height: 200px;
+margin: 8px;
+}
+div.shopView{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 190px;
+    width: 190px;
+    border: 2px solid rgb(199, 199, 199);
+    border-radius: 3px;
+    margin-left: 4px;
+}
+div.shopView:hover{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 190px;
+    width: 190px;
+    border: 2px solid rgb(0, 60, 255);
+    border-radius: 3px;
+    margin-left: 4px;
+}
+div.topView{
+display: flex;
+justify-content: space-between;
+align-items: center;
+}
+div.bottView{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 4px;
+}
+
+
+
+img.laptopImg{
+    height: 100px;
+}
+img.fireImg{
+    margin: 6px;
+    height: 25px;
+}
+img.heartImg{
+    height: 20px;
+    margin: 6px;
+}

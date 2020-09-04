@@ -1,0 +1,19 @@
+@media screen and (max-width: 500px){
+    header.header {
+        display: none;
+    }
+    div.main_page {
+        display: none;
+    }
+    .body {
+        background-color: rgb(233, 3, 164);
+    }
+    img.sec_bizon {
+    height: 200px;
+    }
+
+    div.lol {
+        display: flex;
+    
+    }
+}

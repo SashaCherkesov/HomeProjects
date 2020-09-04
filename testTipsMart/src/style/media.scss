@@ -1,0 +1,21 @@
+@media screen and (max-width: 1000px){
+    body{
+
+        .pop_up{
+            width: 400px;
+            
+            .pop_up_right_side{
+            display: none;
+            }
+            .pop_up_left_side{
+                width: 100%;
+            }
+        }
+
+        
+
+        .pop_up_content{
+            width: 400px;
+        }
+    }
+}

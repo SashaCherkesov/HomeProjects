@@ -1,0 +1,23 @@
+.body{
+    background-size: cover;
+    background-image: url(https://million-wallpapers.ru/wallpapers/3/66/483654874221708.jpg);
+    background-color: black;
+}
+
+.move {
+    width: 100px;
+    height: 100px;
+    // background-color: #fff;
+    // border-radius: 50%;
+    // border: solid 1px rgb(255, 253, 106);
+
+    .img{
+        width: 100px;
+
+    }
+    
+    &.active {
+        
+    }
+}
+

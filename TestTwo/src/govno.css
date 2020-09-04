@@ -1,0 +1,67 @@
+header.header {
+    margin: 8px;
+    border: 3px solid red;
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: space-around;
+}
+div.header_text {
+    font-size: 50px;
+    font-style: italic;
+    color: rgb(255, 0, 119);
+}
+img.header_logo {
+    height: 100px;
+}
+
+div.main_page {
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(255, 218, 170);
+}
+
+div.lol{
+    display: none;
+}
+div.sale {
+    color: red;
+    font-size: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+div.price {
+    color: red;
+    font-size: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+h1.h1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+img.reff {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.buy{
+    display: flex;
+    border: 10px, dotted, black;
+    width: 1500px;
+    height: 50px;
+    margin: 0 auto;
+}
+
+.loh{
+    width: 50%;
+    margin: 0 auto;
+}
+div.loh2{
+    width: 50%;
+    margin: 0 auto;
+}

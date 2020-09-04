@@ -1,0 +1,176 @@
+@media screen and (max-width: 500px) {
+
+    header.header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        border-bottom: 1px solid rgb(185, 185, 185);
+    }
+    div.headerLeft{
+        width: 50%;
+    }
+    img.headerLogo{
+        height: 35px;
+    }
+    div.headerMenu{
+        display: none;
+    }
+    div.headerSearchBar{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    img.searchImg{}
+
+    input.searchInput{
+        display: none;
+    }
+
+    div.headerRight{
+        width: 50%;
+    }
+    div.userProfile{}
+    img.userPic{
+        height: 35px;
+    }
+    div.userName{}
+
+    div.userSurname{}
+
+    div.closeButton{}
+
+    img.closeButton{}
+
+
+
+    div.mainBody{
+        display: flex;
+        flex-direction: column;
+    }
+
+    div.leftSection{
+        width: 100%;
+    }
+    div.leftSectionBoxOne{}
+
+    div.blueTextBox{}
+
+    div.blueTextBoxTwo{}
+
+    div.blueTextBoxOne{}
+
+    div.blueTextBoxThree{}
+
+    div.blueTextBoxFour{}
+
+    div.blueTextBox{}
+
+
+
+    div.rightSection{
+        width: 100%;
+    }
+    div.rightSectionBoxOne{}
+
+    div.buttonBoxRight{}
+
+    div.buttonInBox{}
+
+    div.buttonInBoxOne{}
+
+    div.rightSectionBoxTwo{}
+
+    img.shrekImg{}
+
+    h1.h1{}
+
+    div.rightTextBox{}
+
+    div.circle{}
+
+    div.circleTop{}
+
+    div.squareOne{}
+
+    div.circleMid{}
+
+    div.squareTwo{}
+
+    div.squareThree{}
+
+    div.cicleBott{}
+
+    div.squareFour{}
+
+
+    div.mainBodyShop{}
+
+    h1.shopH1{}
+
+    div.shopSection{}
+
+    div.shopRightSection{
+        display: none;
+    }
+
+    div.rightBar{}
+
+    div.rightBarButtonsTop{}
+
+    div.rightBarButton {}
+
+    div.rightBarButton .active {}
+
+    div.rightBarBott{}
+
+    div.rightFillter{}
+
+
+
+
+    div.shopLeftSection{}
+
+    div.shopList{}
+
+    div.topTapBar{}
+
+    div.navTapBar{}
+
+    div.navButtonBar{}
+
+    div.navButtonBar .active{}
+
+    div.topNavButton{}
+
+    div.fillterButtonLeft{}
+
+    div.mapButton{}
+
+    div.shopsContent{
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    div.shopListLine{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    
+
+    div.shopView{}
+    
+    div.topView{}
+
+    img.fireImg{}
+
+    img.heartImg{}
+
+    img.laptopImg{}
+
+    div.bottView{}
+
+
+
+
+
+}

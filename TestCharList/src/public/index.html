@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div class="left_side">
+        <div class="info_placeholder">
+            <div class="info_left">
+                <div class="img_placeholder">
+                    <div class="img_input">
+                        <input class="img_href" type="url">
+                        <button class="img_btn">Добавить картинку</button>
+                    </div>
+                    <img class="img" src="" alt="забуза">
+                </div>
+            </div>
+            <div class="info_right">
+                <div class="char_info">
+                    <div class="name_line">
+                        <div class="name_name">Имя Персонажа</div>
+                        <div class="name">Забуза</div>
+                    </div>
+                    <div class="race_line">
+                        <div class="name_race">Расса Персонажа</div>
+                        <div class="race">Человек</div>
+                    </div>
+                    <div class="level_line">
+                        <div class="name_level">Уровень Персонажа</div>
+                        <input class="level" type="number" min="1" max="7" value="1">
+                    </div>
+                    <div class="class_line">
+                        <div class="name_class">Класс Персонажа</div>
+                        <div class="class">Челик</div>
+                    </div>
+                </div>
+                <div class="more_points">
+                    <div class="points_name">Victory Points</div>
+                    <input class="victory_points" type="number" value="0">
+                </div>
+            </div>
+        </div>
+
+        <div class="abilities">
+            <div class="abilities_name">Пассивные Способности</div>
+            <div class="ability">Первая пассика + 4 силе</div>
+            <div class="ability">Вторая пасика + 3 к ловкости</div>
+            <div class="ability">Третья пасивка + 2 к армору</div>
+            <div class="ability">Четвертая пасивка + 1 к уклонению</div>
+            <div class="ability">Магия воды 1Д10 х 2</div>
+        </div>
+    </div>
+
+    <div class="right_side">
+        <div class="stats_placeholder">
+            <div class="stats_left">
+                <div class="power_line">
+                    <div class="name_power">Сила</div>
+                    <input class="power" type="number" min="0" value="0">
+                </div>
+                <div class="agility_line">
+                    <div class="name_agility">Ловкость</div>
+                    <input class="agility" type="number" min="0" value="0">
+                </div>
+                <div class="intelligence_line">
+                    <div class="name_intelligence">Интеллект</div>
+                    <input class="intelligence" type="number" min="0" value="0">
+                </div>
+
+                <div class="more_stats">
+                    <div class="bonus_phys_accuracy">
+                        <div class="phys_accuracy_name">Бонус к точности (физ)</div>
+                        <input class="phys_accuracy" type="number" min="0" value="0">
+                    </div>
+                    <div class="bonus_mag_accuracy">
+                        <div class="mag_accuracy_name">Бонус к точности (маг)</div>
+                        <input class="mag_accuracy" type="number" min="0" value="0">
+                    </div>
+                    <div class="bonus_phys_damage">
+                        <div class="phys_damage_name">Бонус к урону (физ)</div>
+                        <input class="phys_damage" type="number" min="0" value="0">
+                    </div>
+                    <div class="bonus_mag_damage">
+                        <div class="mag_damage_name">Бонус к урону (маг)</div>
+                        <input class="mag_damage" type="number" min="0" value="0">
+                    </div>
+                </div>
+            </div>
+
+            <div class="stats_right">
+                <div class="armor_line">
+                    <div class="name_armor">Защита</div>
+                    <div class="stats_more">
+                        <div class="armor"></div>
+                        <input class="more_armor" type="number" min="0" value="0">
+                    </div>
+                </div>
+                <div class="dodge_line">
+                    <div class="name_dodge">Уклонение</div>
+                    <div class="stats_more">
+                        <div class="dodge"></div>
+                        <input class="more_dodge" type="number" min="0" value="0">
+                    </div>    
+                </div>
+                <div class="movespeed_line">
+                    <div class="name_movespeed">МувСпид</div>
+                    <div class="stats_more">
+                        <div class="movespeed">5</div>
+                        <input class="more_movespeed" type="number" min="0" value="0">
+                    </div>
+                </div>
+                <div class="hitpoint_line">
+                    <div class="name_hitpoint">Хитпоинты</div>
+                    <div class="stats_more">
+                        <div class="hitpoint"></div>
+                        <input class="more_hitpoint" type="number" min="0" value="0">
+                    </div>
+                </div>
+                <div class="manapool_line">
+                    <div class="name_manapool">Запас Маны</div>
+                    <div class="stats_more">
+                        <div class="manapool"></div>
+                        <input class="more_manapool" type="number" min="0" value="0">
+                    </div>
+                </div>
+                <div class="energy_shield_line">
+                    <div class="name_energy_shield">Энергетический щит</div>
+                    <div class="stats_more">
+                        <div class="energy_shield"></div>
+                        <input class="more_energy_shield" type="number" min="0" value="0">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="items">
+            <div class="items_name">Предметы</div>
+            <div class="btn_items_placeholder">
+                <button class="items_first_btn">Добавить 1 level</button>
+                <button class="cancel_items_first_btn" disabled>Убрать 1 level</button>
+                <button class="items_second_btn">Добавить 2 level</button>
+                <button class="cancel_items_second_btn" disabled>Убрать 2 level</button>
+            </div>
+            <div class="items_placeholder">    
+                <div class="items_first_level">
+                </div> 
+                <div class="items_second_level">
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

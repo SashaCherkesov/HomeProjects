@@ -1,0 +1,679 @@
+body{
+    display: flex;
+    background: rgb(201, 201, 201);
+
+    .left_side{
+        margin-right: 2px;
+        width: 50%;
+        height: 100%;
+
+        .info_placeholder{
+            width: 100%;
+            display: flex;
+            height: 400px;
+
+            .info_left{
+                border: 0.5px solid black;
+                width: 50%;
+                padding: 6px;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                margin-right: 2px;
+                border-radius: 7px;
+
+                .img_placeholder{
+                    display: flex;
+                    align-items: center;
+                    height: 400px;
+
+                    .img_input{
+                        display: flex;
+                        flex-direction: column;
+                        justify-content: center;
+                        align-items: center;
+
+                        .img_href{
+                            border: 1px solid black;
+                            border-radius: 6px;
+                            margin-top: 2px;
+                            background-color: inherit;
+                            outline: none;
+                            width: 180px;
+                            height: 20px;
+                        }
+                        .img_btn{
+                            width: 180px;
+                            height: 20px;
+                            background-color: rgb(243, 148, 148);
+                            border-radius: 7px;
+                            outline: none;
+                        }
+                    }
+
+                    .img{
+                        max-height: 375px;
+                        max-width: 350px;
+                        display: none;
+
+                    }
+                }  
+            }
+            
+        
+            .info_right{
+                border: 0.5px solid black;
+                width: 50%;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                margin-left: 2px;
+                border-radius: 7px;
+
+                .name_line{
+                    margin: 4px;
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+
+                    .name_name{
+                        font-size: 20px;
+                        margin-bottom: 2px;
+                        border-bottom: 0.5px solid black;
+                    }
+                    .name{
+                        border: 1px solid black;
+                        border-radius: 6px;
+                        margin-top: 2px;
+                        background-color: inherit;
+                        width: 180px;
+                        height: 20px;
+                    }
+                }
+
+                .race_line{
+                    margin: 4px;
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+
+                    .name_race{
+                        font-size: 20px;
+                        margin-bottom: 2px;
+                        border-bottom: 0.5px solid black;
+                    }
+                    .race{
+                        border: 1px solid black;
+                        border-radius: 6px;
+                        margin-top: 2px;
+                        background-color: inherit;
+                        width: 180px;
+                        height: 20px;
+                    }
+                }
+
+                .level_line{
+                    margin: 4px;
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+
+                    .name_level{
+                        font-size: 20px;
+                        margin-bottom: 2px;
+                        border-bottom: 0.5px solid black;
+                    }
+                    .level{
+                        border: 1px solid black;
+                        border-radius: 6px;
+                        margin-top: 2px;
+                        background-color: inherit;
+                        outline: none;
+                        width: 180px;
+                        height: 20px;
+                    }
+                }
+
+                .class_line{
+                    margin: 4px;
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+
+                    .name_class{
+                        font-size: 20px;
+                        margin-bottom: 2px;
+                        border-bottom: 0.5px solid black;
+                    }
+                    .class{
+                        border: 1px solid black;
+                        border-radius: 6px;
+                        margin-top: 2px;
+                        background-color: inherit;
+                        width: 180px;
+                        height: 20px;
+                    }
+                }
+                
+                .more_points{
+                    width: 100%;
+                    height: 100%;
+                    border-top: 0.5px solid black;
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+                    justify-content: space-around;
+
+                    .points_name{
+                        margin-bottom: 2px;
+                        font-size: 20px;
+                        height: 25px;
+                        border-bottom: 0.5px solid black;
+                    }
+                    .victory_points{
+                        display: flex;
+                        border: 1px solid black;
+                        border-radius: 6px;
+                        margin-top: 2px;
+                        background-color: inherit;
+                        width: 180px;
+                        height: 20px;
+                        outline: none;
+                    }
+                }
+
+
+                
+            }
+        }
+
+        .abilities{
+            margin-top: 4px;
+            width: 100%;
+            height: 300px;
+            border: 0.5px solid black;
+            border-radius: 7px;
+
+            .abilities_name{
+                width: 100%;
+                border-bottom: 0.5px solid black;
+                height: 30px;
+                font-size: 20px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+            }
+            .ability{
+                display: flex;
+                width: 100%;
+                height: 30px;
+                border-bottom: 0.5px dotted black;
+                align-items: center;
+            }
+
+        }
+        
+    }
+
+    .right_side{
+        width: 50%;
+        height: 100%;
+        margin-left: 2px;
+
+        .stats_placeholder{
+            width: 100%;
+            display: flex;
+            height: 400px;
+            
+
+            .stats_left{
+                border: 0.5px solid black;
+                width: 50%;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                margin-right: 2px;
+                border-radius: 7px;
+
+                .power_line{
+                    margin: 4px;
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+
+                    .name_power{
+                        font-size: 20px;
+                        margin-bottom: 2px;
+                        border-bottom: 0.5px solid black;
+                    }
+                    .power{
+                        border: 1px solid black;
+                        border-radius: 6px;
+                        margin-top: 2px;
+                        background-color: inherit;
+                        outline: none;
+                        width: 180px;
+                        height: 20px;
+                    }
+                }
+                .agility_line{
+                    margin: 4px;
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+
+                    .name_agility{
+                        font-size: 20px;
+                        margin-bottom: 2px;
+                        border-bottom: 0.5px solid black;
+                    }
+                    .agility{
+                        border: 1px solid black;
+                        border-radius: 6px;
+                        margin-top: 2px;
+                        background-color: inherit;
+                        outline: none;
+                        width: 180px;
+                        height: 20px;
+                    }
+
+                }    
+                .intelligence_line{
+                    margin: 4px;
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+    
+                    .name_intelligence{
+                        font-size: 20px;
+                        margin-bottom: 2px;
+                        border-bottom: 0.5px solid black; 
+                    }
+                    .intelligence{
+                        border: 1px solid black;
+                        border-radius: 6px;
+                        margin-top: 2px;
+                        background-color: inherit;
+                        outline: none;
+                        width: 180px;
+                        height: 20px;
+                    }  
+                }  
+                
+                .more_stats{
+                    display: flex;
+                    flex-wrap: wrap;
+                    justify-content: space-around;
+                    align-items: center;
+                    width: 100%;
+                    height: 100%;
+                    border-top: 0.5px solid black;
+
+                    .bonus_phys_accuracy{
+                        width: 45%;
+                        height: 45%;
+                        border: 0.5px solid black;
+                        border-radius: 5px;
+
+                        .phys_accuracy_name{
+                            width: 100%;
+                            border-bottom: 0.5px solid black;
+                            height: 20px;
+                            font-size: 12px;
+                            display: flex;
+                            justify-content: center;
+                            align-items: center;
+                        }
+                        .phys_accuracy{
+                            width: 100%;
+                            height: 75px;
+                            border: none;
+                            background: none;
+                            outline: none;
+                        }
+                    }
+                    .bonus_mag_accuracy{
+                        width: 45%;
+                        height: 45%;
+                        border: 0.5px solid black;
+                        border-radius: 5px;
+
+                        .mag_accuracy_name{
+                            width: 100%;
+                            border-bottom: 0.5px solid black;
+                            height: 20px;
+                            font-size: 12px;
+                            display: flex;
+                            justify-content: center;
+                            align-items: center;
+                        }
+                        .mag_accuracy{
+                            width: 100%;
+                            height: 75px;
+                            border: none;
+                            background: none;
+                            outline: none;
+                        }
+                    }
+                    .bonus_phys_damage{
+                        width: 45%;
+                        height: 45%;
+                        border: 0.5px solid black;
+                        border-radius: 5px;
+
+                        .phys_damage_name{
+                            width: 100%;
+                            border-bottom: 0.5px solid black;
+                            height: 20px;
+                            font-size: 12px;
+                            display: flex;
+                            justify-content: center;
+                            align-items: center;
+                        }
+                        .phys_damage{
+                            width: 100%;
+                            height: 75px;
+                            border: none;
+                            background: none;
+                            outline: none;
+                        }
+                    }
+                    .bonus_mag_damage{
+                        width: 45%;
+                        height: 45%;
+                        border: 0.5px solid black;
+                        border-radius: 5px;
+
+                        .mag_damage_name{
+                            width: 100%;
+                            border-bottom: 0.5px solid black;
+                            height: 20px;
+                            font-size: 12px;
+                            display: flex;
+                            justify-content: center;
+                            align-items: center;
+                        }
+                        .mag_damage{
+                            width: 100%;
+                            height: 75px;
+                            border: none;
+                            background: none;
+                            outline: none;
+                        }
+                    }
+                }
+            }
+            .stats_right{
+                border: 0.5px solid black;
+                width: 50%;
+                padding: 6px;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                margin-left: 2px;
+                border-radius: 7px;
+
+                .stats_more{
+                    display: flex;
+                }
+
+                .armor_line{
+                    margin: 4px;
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+
+                    .name_armor{
+                        font-size: 20px;
+                        margin-bottom: 2px;
+                        border-bottom: 0.5px solid black;
+                    }
+                    .armor{
+                        border: 1px solid black;
+                        border-radius: 6px;
+                        margin-top: 2px;
+                        background-color: inherit;
+                        width: 180px;
+                        height: 20px;
+                    }
+                    .more_armor{
+                        border: 1px dotted black;
+                        border-radius: 6px;
+                        margin-top: 1px;
+                        background-color: inherit;
+                        width: 87px;
+                        height: 20px;
+                        outline: none;
+                    }
+                }
+                .dodge_line{
+                    margin: 4px;
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+
+                    .name_dodge{
+                        font-size: 20px;
+                        margin-bottom: 2px;
+                        border-bottom: 0.5px solid black;
+                    }
+                    .dodge{
+                        border: 1px solid black;
+                        border-radius: 6px;
+                        margin-top: 2px;
+                        background-color: inherit;
+                        width: 180px;
+                        height: 20px;
+                    }
+                    .more_dodge{
+                        border: 1px dotted black;
+                        border-radius: 6px;
+                        margin-top: 1px;
+                        background-color: inherit;
+                        width: 87px;
+                        height: 20px;
+                        outline: none;
+                    }
+                }
+                .movespeed_line{
+                    margin: 4px;
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+
+                    .name_movespeed{
+                        font-size: 20px;
+                        margin-bottom: 2px;
+                        border-bottom: 0.5px solid black;
+                    }
+                    .movespeed{
+                        border: 1px solid black;
+                        border-radius: 6px;
+                        margin-top: 2px;
+                        background-color: inherit;
+                        width: 180px;
+                        height: 20px;
+                    }
+                    .more_movespeed{
+                        border: 1px dotted black;
+                        border-radius: 6px;
+                        margin-top: 1px;
+                        background-color: inherit;
+                        width: 87px;
+                        height: 20px;
+                        outline: none;
+                    }
+                }
+                .hitpoint_line{
+                    margin: 4px;
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+
+                    .name_hitpoint{
+                        font-size: 20px;
+                        margin-bottom: 2px;
+                        border-bottom: 0.5px solid black;
+                    }
+                    .hitpoint{
+                        border: 1px solid black;
+                        border-radius: 6px;
+                        margin-top: 2px;
+                        background-color: inherit;
+                        width: 180px;
+                        height: 20px;
+                    }
+                    .more_hitpoint{
+                        border: 1px dotted black;
+                        border-radius: 6px;
+                        margin-top: 1px;
+                        background-color: inherit;
+                        width: 87px;
+                        height: 20px;
+                        outline: none;
+                    }
+                }
+
+                .manapool_line{
+                    margin: 4px;
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+
+                    .name_manapool{
+                        font-size: 20px;
+                        margin-bottom: 2px;
+                        border-bottom: 0.5px solid black;
+                    }
+                    .manapool{
+                        border: 1px solid black;
+                        border-radius: 6px;
+                        margin-top: 2px;
+                        background-color: inherit;
+                        width: 180px;
+                        height: 20px;
+                    }
+                    .more_manapool{
+                        border: 1px dotted black;
+                        border-radius: 6px;
+                        margin-top: 1px;
+                        background-color: inherit;
+                        width: 87px;
+                        height: 20px;
+                        outline: none;
+                    }
+                }
+                
+                .energy_shield_line{
+                    margin: 4px;
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+
+                    .name_energy_shield{
+                        font-size: 20px;
+                        margin-bottom: 2px;
+                        border-bottom: 0.5px solid black;
+                    }
+                    .energy_shield{
+                        border: 1px solid black;
+                        border-radius: 6px;
+                        margin-top: 2px;
+                        background-color: inherit;
+                        width: 180px;
+                        height: 20px;
+                    }
+                    .more_energy_shield{
+                        border: 1px dotted black;
+                        border-radius: 6px;
+                        margin-top: 1px;
+                        background-color: inherit;
+                        width: 87px;
+                        height: 20px;
+                        outline: none;
+                    }
+                }
+            }
+        }
+
+        .items{
+            width: 100%;
+            border: 0.5px solid black;
+            border-radius: 7px;
+            margin-top: 4px;
+            height: 300px;
+
+            .items_name{
+                width: 100%;
+                border-bottom: 0.5px solid black;
+                height: 30px;
+                font-size: 20px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+            }
+            .btn_items_placeholder{
+                display: flex;
+                justify-content: space-around;
+                align-items: center;
+                height: 40px;
+                border-bottom: 0.5px solid black;
+
+                .items_first_btn{
+                    background-color: rgb(243, 148, 148);
+                    border-radius: 7px;
+                    outline: none;
+                }
+                .items_second_btn{
+                    background-color: rgb(243, 148, 148);
+                    border-radius: 7px;
+                    outline: none;
+                }
+                .cancel_items_first_btn{
+                    background-color: rgb(243, 148, 148);
+                    border-radius: 7px;
+                    outline: none;
+                }
+                .cancel_items_second_btn{
+                    background-color: rgb(243, 148, 148);
+                    border-radius: 7px;
+                    outline: none;
+                }
+            }
+            .items_placeholder{
+                display: flex;
+                width: 100%;
+                height: 229px;
+
+                .items_first_level{
+                    width: 50%;
+                    height: 100%;
+
+                    .first_level_item{
+                        display: flex;
+                        width: 100%;
+                        height: 30px;
+                        border-bottom: 0.5px dotted black;
+                        align-items: center;
+                    }
+                }
+                .items_second_level{
+                    width: 50%;
+                    height: 100%;
+                    border-left: 0.25px solid black;
+
+                    .second_level_item{
+                        display: flex;
+                        width: 100%;
+                        height: 30px;
+                        border-bottom: 0.5px dotted black;
+                        align-items: center;
+                    }
+                }
+
+            }
+            
+        }
+
+    }
+}
